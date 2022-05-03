@@ -1,0 +1,37 @@
+.modalbut{
+  background-color: green;
+  color: white;
+  margin-top: 20px;
+  border-radius: 10px;
+} 
+.table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+  border: 3px solid #14002c; 
+}
+.content_staff{
+  border-radius: 12px;
+}
+.addStaff{
+  font-size: 25px;
+  cursor: pointer;
+}
+.addStaff:hover{
+  font-size: 25px;
+  border: 2px solid black;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 1px;
+}
+.search_field{
+  border-radius: 8px;
+  padding: 4px;
+}
+.icon_edit{
+  color: green;
+}
+.icon_delete{
+  color: red;
+}
+.closemodal{
+  cursor: pointer;
+}
